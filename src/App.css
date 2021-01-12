@@ -1,0 +1,54 @@
+@media (min-width: 700px) {
+  .content {
+    padding-top: 50px;
+  }
+}
+
+.heading {
+  border-bottom: 2px solid #999999;
+}
+
+.underweight {
+  color: #359cbb;
+  border-bottom: 2px solid #359cbb;
+}
+
+.normal {
+  color: #8bca60;
+  border-bottom: 2px solid #8bca60;
+}
+
+.overweight {
+  color: #c7c400;
+  border-bottom: 2px solid #c7c400;
+}
+
+.obese {
+  color: #f0a51a;
+  border-bottom: 2px solid #f0a51a;
+}
+
+.very {
+  color: #c41414;
+  border-bottom: 2px solid #c41414;
+}
+
+.card_underweight {
+  border-left: 5px solid #359cbb;
+}
+
+.card_normal {
+  border-left: 5px solid #8bca60;
+}
+
+.card_overweight {
+  border-left: 5px solid #e0de36;
+}
+
+.card_obese {
+  border-left: 5px solid #f0a51a;
+}
+
+.card_very {
+  border-left: 5px solid #c41414;
+}
