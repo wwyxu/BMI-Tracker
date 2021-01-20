@@ -5,6 +5,12 @@
   }
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .heading {
   border-bottom: 2px solid #999999;
 }

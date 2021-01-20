@@ -33,7 +33,7 @@ const App = () => {
   };
 
   /*------------------------------------------------------------------------*/
-
+  // Dark and Light Theming
   const getInitialMode = () => {
     const isReturningUser = "dark" in localStorage;
     const savedMode = JSON.parse(localStorage.getItem("dark"));
@@ -56,8 +56,8 @@ const App = () => {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <div className="full-height">
-        <div className="container">
+      <div className="full-height p-0">
+        <div className="container p-0">
           <div className="row">
             <div className="content col-12 p-0">
               <Bmi submit={onSubmit} darkMode={darkMode} setDark={setDark} />
