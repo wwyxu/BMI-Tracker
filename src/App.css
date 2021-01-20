@@ -84,11 +84,13 @@
 .fa-sun {
   font-size: 2em;
   padding-top: 10px;
+  cursor: pointer;
   transition: 0.25s ease-out;
 }
 
 .fa-moon {
   font-size: 2em;
   padding-top: 10px;
+  cursor: pointer;
   transition: 0.25s ease-out;
 }
