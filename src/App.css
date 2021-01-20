@@ -1,0 +1,94 @@
+@media (min-width: 700px) {
+  .content {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.heading {
+  border-bottom: 2px solid #999999;
+}
+
+.underweight {
+  color: #359cbb;
+  border-bottom: 2px solid #359cbb;
+}
+
+.normal {
+  color: #8bca60;
+  border-bottom: 2px solid #8bca60;
+}
+
+.overweight {
+  color: #c7c400;
+  border-bottom: 2px solid #c7c400;
+}
+
+.obese {
+  color: #f0a51a;
+  border-bottom: 2px solid #f0a51a;
+}
+
+.very {
+  color: #c41414;
+  border-bottom: 2px solid #c41414;
+}
+
+.card_underweight {
+  border-left: 5px solid #359cbb;
+}
+
+.card_normal {
+  border-left: 5px solid #8bca60;
+}
+
+.card_overweight {
+  border-left: 5px solid #e0de36;
+}
+
+.card_obese {
+  border-left: 5px solid #f0a51a;
+}
+
+.card_very {
+  border-left: 5px solid #c41414;
+}
+
+/*---------------------------------------------------------------*/
+
+.full-height {
+  min-height: 100vh;
+}
+
+.light-mode {
+  background-color: rgb(219, 219, 219);
+  color: #333;
+  transition: background-color 0.25s ease-out;
+}
+
+.dark-mode {
+  background-color: #202020;
+  color: #999;
+  transition: background-color 0.25s ease-out;
+}
+
+.bg_dark {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.light-shadow {
+  box-shadow: 0 0 11px rgba(179, 179, 179, 0.2);
+}
+
+.fa-sun {
+  font-size: 2em;
+  padding-top: 10px;
+  transition: 0.25s ease-out;
+}
+
+.fa-moon {
+  font-size: 2em;
+  padding-top: 10px;
+  transition: 0.25s ease-out;
+}
