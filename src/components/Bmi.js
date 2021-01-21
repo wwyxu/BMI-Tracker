@@ -136,13 +136,13 @@ const Bmi = ({ submit, darkMode, setDark }) => {
       <div className="row heading mb-3">
         <div className="col-1">
           {darkMode === false ? (
-            <a onClick={() => setDark(true)}>
+            <p onClick={() => setDark(true)}>
               <i className="fas fa-moon" />
-            </a>
+            </p>
           ) : (
-            <a onClick={() => setDark(false)}>
+            <p onClick={() => setDark(false)}>
               <i className="fas fa-sun" />
-            </a>
+            </p>
           )}
         </div>
         <div className="col-10">

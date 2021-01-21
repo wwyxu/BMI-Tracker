@@ -28,16 +28,16 @@ const Logs = ({
         <div className="card-data p-1">
           <div className="row">
             <div className="col-3">
-              <a>BMI: {bmi}</a>
+              <p>BMI: {bmi}</p>
             </div>
             <div className="col-3">
-              <a>Weight: {weight} kg</a>
+              <p>Weight: {weight} kg</p>
             </div>
             <div className="col-3">
-              <a>Height: {height} cm</a>
+              <p>Height: {height} cm</p>
             </div>
             <div className="col-2">
-              <a>{date}</a>
+              <p>{date}</p>
             </div>
             <div className="col-1">
               <Button

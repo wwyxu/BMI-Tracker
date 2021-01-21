@@ -56,7 +56,7 @@ const App = () => {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <div className="full-height p-0">
+      <div className="full-height p-0 mx-4">
         <div className="container p-0">
           <div className="row">
             <div className="content col-12 p-0">
